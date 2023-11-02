@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../componets.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>mm Education</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar bg-primary text-light mb-3">
+      <div class="navbar-logo">
+        <a class="navbar-brand" href="../index.html"
+          ><span class="logo">mm</span> Education</a
+        >
+        <button class="navbar-toggler btn btn-sm btn-close-white">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav me-auto">
+          <!-- todo: Update pages  > -->
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <!-- todo: < Update pages   -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Log in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container d-flex flex-column header">
+      <div class="container container-sm">
+        <h1 class="title text-center mb-4">Log In</h1>
+        <div class="card p-2">
+          <div class="card-body">
+            <h5 class="card-title">Enter your credential</h5>
+            <form action="./welcome.html" id="logIn">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="form-control"
+                  placeholder="Enter your password"
+                />
+              </div>
+              <div class="form-group">
+                <button class="btn btn-primary" type="submit">Log in</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+
+    <script src="../nav.js"></script>
+    <script src="./logInFormValidations.js"></script>
+  </body>
+</html>

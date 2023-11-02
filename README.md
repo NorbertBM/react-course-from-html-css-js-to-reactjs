@@ -20,25 +20,25 @@ In conclusion, our React course for beginners is the perfect way to take your we
 
 Here is a list of all the hooks available in React and I will be teaching in this course, along with a short description of what they do:
 
-useState: Allows you to add state to a functional component by providing a state variable and a function to update it.
+- useState: Allows you to add state to a functional component by providing a state variable and a function to update it.
 
-useEffect: Allows you to perform side effects (such as fetching data or updating the DOM) after a component has rendered or before it's about to unmount.
+- useEffect: Allows you to perform side effects (such as fetching data or updating the DOM) after a component has rendered or before it's about to unmount.
 
-useContext: Allows you to access data stored in a context object without having to pass props down through multiple levels of components.
+- useContext: Allows you to access data stored in a context object without having to pass props down through multiple levels of components.
 
-useReducer: Allows you to manage complex state in a predictable way, by taking in a reducer function and an initial state value.
+- useReducer: Allows you to manage complex state in a predictable way, by taking in a reducer function and an initial state value.
 
-useCallback: Allows you to memoize a function, which can help with performance by preventing unnecessary re-renders of child components.
+- useCallback: Allows you to memoize a function, which can help with performance by preventing unnecessary re-renders of child components.
 
-useMemo: Allows you to memoize a value, which can help with performance by preventing unnecessary calculations.
+- useMemo: Allows you to memoize a value, which can help with performance by preventing unnecessary calculations.
 
-useRef: Allows you to create a mutable reference to a value or DOM element, which can be useful for accessing the DOM directly or persisting values across renders.
+- useRef: Allows you to create a mutable reference to a value or DOM element, which can be useful for accessing the DOM directly or persisting values across renders.
 
-useLayoutEffect: Similar to useEffect, but runs synchronously after all DOM mutations have completed, which can be useful for manipulating the DOM directly.
+- useLayoutEffect: Similar to useEffect, but runs synchronously after all DOM mutations have completed, which can be useful for manipulating the DOM directly.
 
-useImperativeHandle: Allows you to customize the instance value that's exposed to parent components when using ref.
+- useImperativeHandle: Allows you to customize the instance value that's exposed to parent components when using ref.
 
-useDebugValue: Allows you to add a label to a custom hook, which can be useful for debugging and tracing the flow of data in your application.
+- useDebugValue: Allows you to add a label to a custom hook, which can be useful for debugging and tracing the flow of data in your application.
 
 These hooks are some of the most commonly used ones in React, and can be incredibly powerful when used correctly. By understanding how each hook works and when to use it, you can build more complex and performant applications with ease.
 

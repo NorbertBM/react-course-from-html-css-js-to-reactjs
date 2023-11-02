@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="componets.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>mm Education</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar bg-primary text-light mb-3">
+      <div class="navbar-logo">
+        <a class="navbar-brand" href="./index.html"
+          ><span class="logo">mm</span> Education</a
+        >
+        <button class="navbar-toggler btn btn-sm btn-close-white">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav me-auto">
+          <!-- todo: Update pages  > -->
+          <li class="nav-item">
+            <a class="nav-link" href="./Pages/home.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./Pages/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Pages/contact.html">Contact</a>
+          </li>
+          <!-- todo: < Update pages   -->
+          <li class="nav-item">
+            <a class="nav-link" href="./Pages/logIn.html">Log in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Pages/register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container container-lg">
+      <!-- HEADER -->
+      <header id="header" class="header d-flex">
+        <div class="header-content mb-2">
+          <h1 class="title header-title fs-xxl mb-3">
+            Learn to code by watching others
+          </h1>
+          <p class="header-text mb-3">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+          <div class="header-btn">
+            <a href="./Pages/register.html" class="btn btn-primary text-light"
+              >Try it free 30 days</a
+            >
+            <a href="#offers" class="btn btn-secondary">Learn more...</a>
+          </div>
+        </div>
+        <!-- <img class="header-img" src="./img/header.png" alt="" /> -->
+        <img class="header-img" src="./img/header-img.png" alt="" />
+      </header>
+      <!-- MAINE -->
+      <main>
+        <!-- CATEGORIES -->
+        <section class="categories my-4">
+          <h2 class="subtitle text-center m-4">Top categories</h2>
+          <div class="categories-container d-flex">
+            <div class="card">
+              <div class="card-header">
+                <i class="fa-brands fa-html5"></i
+                ><i class="fa-brands fa-css3"></i>
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Web Development</h3>
+                <div class="card-text">
+                  <span class="fs-lg"> Learn how to build web apps with:</span>
+                  <ul class="mt-1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer">
+                <!-- <button class="btn btn-secondary" onclick="console.log(event)">
+                  Start learning
+                </button> -->
+                <button
+                  class="btn btn-secondary"
+                  onclick="function handleClick(){
+                  alert('This button was clicked');
+                } handleClick()"
+                >
+                  Start learning
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header bg-dark">
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Mobile Development</h3>
+                <div class="card-text">
+                  <span class="fs-lg"
+                    >Learn how to build mobile apps with:</span
+                  >
+                  <ul class="mt-1">
+                    <li>React Native</li>
+                    <li>JavaScript</li>
+                    <li>Expo</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-secondary">Start learning</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-brands fa-r-project"></i>
+                <i class="fa-brands fa-java"></i>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Data Science</h3>
+                <div class="card-text">
+                  <span class="fs-lg"> Learn how to analyze data with: </span>
+                  <ul class="mt-1">
+                    <li>Python</li>
+                    <li>R</li>
+                    <li>Java</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-secondary">Start learning</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <i class="fa-solid fa-file-excel"></i>
+                <i class="fa-solid fa-people-group"></i>
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Business</h3>
+                <div class="card-text">
+                  <span class="fs-lg">Learn how to to analyze data.</span>
+                  <ul class="mt-1">
+                    <li>Excel</li>
+                    <li>Power BI</li>
+                    <li>SQL</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-secondary">Start learning</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- OFFERS -->
+        <section id="offers" class="offers container container-md p-2">
+          <h2 class="subtitle text-center mb-4">Here's what you get</h2>
+          <div class="offers-container">
+            <div class="card offer text-center">
+              <div class="card-body">
+                <i class="fa-solid fa-unlock"></i>
+                <h3 class="card-title">Tons of content</h3>
+                <p class="card-text">
+                  We have a library of over 100,000 videos that will help you
+                  learn to code.
+                </p>
+              </div>
+            </div>
+            <div class="card offer text-center">
+              <div class="card-body">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <h3 class="card-title">Guided Course</h3>
+                <p class="card-text">
+                  We guided you with series of videos that will help you learn
+                  to code.
+                </p>
+              </div>
+            </div>
+            <div class="card offer text-center">
+              <div class="card-body">
+                <i class="fa-solid fa-file-arrow-down"></i>
+                <h3 class="card-title">Project File Downloads</h3>
+                <p class="card-text">
+                  File from project are available for all of our courses to be
+                  downloaded.
+                </p>
+              </div>
+            </div>
+            <div class="card offer text-center">
+              <div class="card-body">
+                <i class="fa-solid fa-gift"></i>
+                <h3 class="card-title">Exclusive Features</h3>
+                <p class="card-text">
+                  Enhance your coding experience with new and exclusive features
+                  like AutoPlay, Theming, Progress Tracking, Courses and Quizzes
+                  (coming soon!)
+                </p>
+              </div>
+            </div>
+            <div class="card offer text-center">
+              <div class="card-body">
+                <i class="fa-solid fa-headset"></i>
+                <h3 class="card-title">Excellent Support</h3>
+                <p class="card-text">
+                  We have excellent support for all of our users. We have a team
+                  of dedicated support staff that are ready to help you with any
+                  questions you may have.
+                </p>
+              </div>
+            </div>
+            <div class="card offer text-center">
+              <div class="card-body">
+                <i class="fa-solid fa-unlock"></i>
+                <h3 class="card-title">Tons of content</h3>
+                <p class="card-text">
+                  We have a library of over 100,000 videos that will help you
+                  learn to code.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- TESTIMONIALS -->
+        <section class="testimonials my-4">
+          <h2 class="subtitle text-center mb-4">What our users say</h2>
+          <div class="testimonials-container">
+            <!-- Testimonial-1 -->
+            <div class="card testimonial">
+              <div class="card-header">
+                <div class="card-img img-1"></div>
+                <div class="card-body">
+                  <h3 class="card-title">John Doe</h3>
+                  <p class="card-text">Web Developer</p>
+                  <p><i class="fa-brands fa-twitter"></i>@johndoe</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusantium, ducimus? Saepe, in, quis nulla laborum officiis a
+                  exercitationem amet reprehenderit autem quibusdam nisi nihil
+                  aut, totam voluptates voluptatem fugit. Culpa.
+                </p>
+              </div>
+            </div>
+            <!-- Testimonial-2 -->
+            <div class="card card-warning testimonial">
+              <div class="card-header">
+                <div class="card-img img-2"></div>
+                <div class="card-body">
+                  <h3 class="card-title">Jeff Doe</h3>
+                  <p class="card-text">Front End Developer</p>
+                  <p><i class="fa-brands fa-twitter"></i>@jeffdoe</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusantium, ducimus? Saepe, in, quis nulla laborum officiis a
+                  exercitationem amet reprehenderit autem quibusdam nisi nihil
+                  aut, totam voluptates voluptatem fugit. Culpa.
+                </p>
+              </div>
+            </div>
+            <!-- Testimonial-3 -->
+            <div class="card card-info testimonial">
+              <div class="card-header">
+                <div class="card-img img-3"></div>
+                <div class="card-body">
+                  <h3 class="card-title">Jane Doe</h3>
+                  <p class="card-text">Web Developer</p>
+                  <p><i class="fa-brands fa-twitter"></i>@janedoe</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusantium, ducimus? Saepe, in, quis nulla laborum officiis a
+                  exercitationem amet reprehenderit autem quibusdam nisi nihil
+                  aut, totam voluptates voluptatem fugit. Culpa.
+                </p>
+              </div>
+            </div>
+            <!-- Testimonial-4 -->
+            <div class="card card-danger testimonial">
+              <div class="card-header">
+                <div class="card-img img-4"></div>
+                <div class="card-body">
+                  <h3 class="card-title">Jennifer Doe</h3>
+                  <p class="card-text">Web Developer</p>
+                  <p><i class="fa-brands fa-twitter"></i>@jenniferdoe</p>
+                </div>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Accusantium, ducimus? Saepe, in, quis nulla laborum officiis a
+                  exercitationem amet reprehenderit autem quibusdam nisi nihil
+                  aut, totam voluptates voluptatem fugit. Culpa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div id="banner"></div>
+    <!-- FOOTER -->
+    <footer class="footer bg-primary text-light">
+      <div class="footer-content d-flex">
+        <div class="footer-logo">
+          <a class="navbar-brand" href="#"
+            ><span class="logo">mm</span> Education</a
+          >
+        </div>
+        <section class="footer-links">
+          <h3 class="footer-title mb-1">Quick Links</h3>
+          <ul class="footer-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+          </ul>
+        </section>
+        <section class="footer-social">
+          <h3 class="footer-title mb-1">Follow us on Social</h3>
+          <ul class="footer-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-brands fa-github mr-1"></i>GitHub</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-brands fa-twitter mr-1"></i>Twitter</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-brands fa-instagram mr-1"></i>Instagram</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-brands fa-facebook mr-1"></i>Facebook</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+    <script src="nav.js"></script>
+    <!-- Update -->
+    <script src="testimonials.js"></script>
+  </body>
+</html>

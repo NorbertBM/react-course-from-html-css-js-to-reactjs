@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "img": "img-1",
+    "fullName": "John Doe",
+    "jobTitle": "Junior developer",
+    "twitterHandle": "@johndoe",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Accusantium, ducimus? Saepe, in, quis nulla laborum officiis aexercitationem amet reprehenderit autem quibusdam nisi nihilaut, totam voluptates voluptatem fugit. Culpa."
+  },
+  {
+    "id": 2,
+    "img": "img-2",
+    "fullName": "Jeff Doe",
+    "jobTitle": "Front End Developer",
+    "twitterHandle": "@jeffdoe",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Accusantium, ducimus? Saepe, in, quis nulla laborum officiis aexercitationem amet reprehenderit autem quibusdam nisi nihilaut, totam voluptates voluptatem fugit. Culpa."
+  },
+  {
+    "id": 3,
+    "img": "img-3",
+    "fullName": "Jane Nories",
+    "jobTitle": "Back End Developer",
+    "twitterHandle": "@janedoe",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Accusantium, ducimus? Saepe, in, quis nulla laborum officiis aexercitationem amet reprehenderit autem quibusdam nisi nihilaut, totam voluptates voluptatem fugit. Culpa."
+  },
+  {
+    "id": 4,
+    "img": "img-4",
+    "fullName": "Jennifer Doe",
+    "jobTitle": "Tester",
+    "twitterHandle": "@jenniferdoe",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Accusantium, ducimus? Saepe, in, quis nulla laborum officiis aexercitationem amet reprehenderit autem quibusdam nisi nihilaut, totam voluptates voluptatem fugit. Culpa."
+  }
+]

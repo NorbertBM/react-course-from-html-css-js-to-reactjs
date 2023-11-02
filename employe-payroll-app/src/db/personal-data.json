@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "first_name": "John",
+    "last_name": "Doe",
+    "date_of_birth": "1990-01-01",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 2,
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 3,
+    "first_name": "Bat",
+    "last_name": "Man",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 4,
+    "first_name": "Spider",
+    "last_name": "Man",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 6,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 7,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 8,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 9,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 10,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 11,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 12,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 13,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 14,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 15,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 16,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  },
+  {
+    "id": 17,
+    "first_name": "Optimus",
+    "last_name": "Prime",
+    "date_of_birth": "1995-05-05",
+    "yearly_leave_days": 30,
+    "requested_leave_days": 0,
+    "remaining_leave_days": 0
+  }
+]

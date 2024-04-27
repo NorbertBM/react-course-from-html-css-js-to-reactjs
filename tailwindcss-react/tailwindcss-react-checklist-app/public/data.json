@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1000,
+    "text": "The first item was edited",
+    "title": "",
+    "description": "Video: Create a new video with react use hook",
+    "addedAt": "2021-02-05",
+    "completed": true,
+    "completedAt": "2024-04-25"
+  },
+  {
+    "id": 825,
+    "text": "Create a new react app using npx create-react-app simple-checklist",
+    "title": "",
+    "description": "Video: Create a new video with react use hook",
+    "addedAt": "2021-04-13",
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "id": 973,
+    "text": "Install Tailwind CSS in to react app",
+    "title": "",
+    "description": "Video: Create a new video with react use hook",
+    "addedAt": "2021-07-01",
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "id": 757,
+    "text": "Create the Check List component",
+    "title": "",
+    "description": "Video: Create a new video with react use hook",
+    "addedAt": "2021-07-01",
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "id": 266,
+    "text": "Create a check list item component",
+    "title": "",
+    "description": "Video: Create a new video with react use hook",
+    "addedAt": "2021-06-10",
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "id": 526,
+    "text": "Create data for the check list items and display them in the check list component",
+    "title": "",
+    "description": "Video: Create a new video with react use hook",
+    "addedAt": "2021-07-01",
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "id": 320,
+    "text": "Create a button component using in react js and tailwind css",
+    "title": "",
+    "description": "Video: Create a new video with react use hook",
+    "addedAt": "2021-07-01",
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "id": 317,
+    "text": "Check and uncheck the check list items when the button is clicked",
+    "title": "",
+    "description": "Video: Create a new video with react use hook",
+    "addedAt": "2021-07-01",
+    "completed": false,
+    "completedAt": null
+  },
+  {
+    "id": 217,
+    "text": "Viewers: \"Like and Subscribe to my YouTube chanel\"",
+    "title": "Simple Check List with React JS and Tailwind CSS",
+    "description": "Video: Create a new video with react use hook",
+    "addedAt": "2021-07-01",
+    "completed": false,
+    "completedAt": null
+  }
+]

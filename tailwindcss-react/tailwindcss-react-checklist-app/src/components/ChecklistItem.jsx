@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState, useTransition } from "react";
 import { IoTrash, IoCheckmarkCircle, IoFlower } from "react-icons/io5";
 import TimeCapsule from "./TimeCapsule";
-export default function ChecklistItem({ item, index, onToggleCompleted }) {
+export default function ChecklistItem({
+  item,
+  index,
+  onToggleCompleted,
+  onDelete,
+  onEdit,
+}) {
+  const [isEditing, setIsEditing] = useState(true);
   const actionsIconsStyle =
     "cursor-pointer text-white hover:bg-white hover:p-0.5 rounded-md transition-all duration-200 ease-in-out";
 
-  const completedStyle = "bg-green-200 hover:bg-green-300 scale-95";
+  const completedStyle = "bg-green-200 hover:bg-green-300 scale-90";
   const notCompletedStyle = "bg-gray-200 hover:bg-gray-400";
 
   return (
@@ -23,8 +30,18 @@ export default function ChecklistItem({ item, index, onToggleCompleted }) {
               : `${actionsIconsStyle}text-red-400 hover:text-red-700`
           }
         />
-        <IoTrash />
-        <IoFlower />
+        <IoTrash
+          onClick={() => onDelete(item.id, index)}
+          className={actionsIconsStyle + " hover:text-red-700"}
+        />
+        <IoFlower
+          onClick={() => setIsEditing(!isEditing)}
+          className={
+            !isEditing
+              ? `${actionsIconsStyle} hover:text-slate-800 text-red-300`
+              : `${actionsIconsStyle} hover:text-slate-800 `
+          }
+        />
         {/* TODO: Actions */}
       </div>
       <div className="col-span-11 h-full flex justify-between items-center gap-4">
@@ -33,10 +50,14 @@ export default function ChecklistItem({ item, index, onToggleCompleted }) {
           {index}
         </div>
         <textarea
-          className="bg-transparent w-full h-full border-none focus:outline-none text-xl font-medium hover:cursor-text text-wrap"
+          className={`${
+            !isEditing ? "bg-white" : "bg-transparent"
+          } w-full h-full border-none focus:outline-none text-xl font-medium hover:cursor-text text-wrap`}
           type="text"
           value={item.text}
-          disabled
+          disabled={isEditing}
+          onChange={(e) => onEdit(item.id, e.target.value, index)}
+          onBlur={() => setIsEditing(!isEditing)}
         />
         <div className="min-w-32 flex align-center flex-row gap-1 md:flex-col">
           <TimeCapsule time={item.addedAt} />

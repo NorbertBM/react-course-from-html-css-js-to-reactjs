@@ -1,0 +1,57 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "sector": "Electronic Technology"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "AMAZON.COM",
+    "sector": "Retail Trade"
+  },
+  {
+    "symbol": "BRK.B",
+    "name": "Berkshire Hathaway Inc.",
+    "sector": "Finance"
+  },
+  {
+    "symbol": "COST",
+    "name": "COSTCO WHOLESALE",
+    "sector": "Retail Trade"
+  },
+  {
+    "symbol": "DUK",
+    "name": "DUKE ENERGY CORPORATION (HOLDING COMPANY)",
+    "sector": "Utilities"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc (Google) Class A",
+    "sector": "Technology Services"
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms",
+    "sector": "Technology Services"
+  },
+  {
+    "symbol": "NEE",
+    "name": "NEXTERA ENERGY, INC.",
+    "sector": "Utilities"
+  },
+  {
+    "symbol": "WMT",
+    "name": "WALMART INC",
+    "sector": "Retail Trade"
+  },
+  {
+    "symbol": "XOM",
+    "name": "Exxon Mobil",
+    "sector": "Energy Minerals"
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA",
+    "sector": "Electronic Technology"
+  }
+]

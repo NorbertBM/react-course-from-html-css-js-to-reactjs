@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-export default function StockListHeader({ setStocks, saveStocksListJSON }) {
+export default function StockListHeader({ setStocks, saveStockListToJSON }) {
   return (
     <section className="stock-list-header">
       <hr className="mb-4" />
@@ -15,7 +15,7 @@ export default function StockListHeader({ setStocks, saveStocksListJSON }) {
         <div>
           <Button
             classes={"bg-teal-500 hover:bg-teal-700 mb-2"}
-            onClick={() => saveStocksListJSON([])}
+            onClick={() => saveStockListToJSON([])}
           >
             {" "}
             Save list

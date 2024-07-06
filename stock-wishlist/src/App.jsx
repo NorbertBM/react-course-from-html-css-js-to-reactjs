@@ -14,6 +14,7 @@ function App() {
   const [newStockSector, setNewStockSector] = useState("");
 
   const inputRef = useRef(null);
+
   const stockWidgetRef = useRef(null);
 
   // Load and Save Stocks list to local storage
@@ -112,7 +113,9 @@ function App() {
       setStocks(updatedStocks);
     }
   };
+
   // Open selected stock details and chart widget
+
   const openStockWidget = (symbol) => {
     stockWidgetRef.current.scrollIntoView({ behavior: "smooth" });
     setOpenChart(symbol);
@@ -153,9 +156,7 @@ function App() {
         <div
           ref={stockWidgetRef}
           className="tradingview-widget-container__widget bg-gray-100 rounded-md mb-2 max-h-80"
-        >
-          Stock Details
-        </div>
+        ></div>
         <StockChart symbol={openChart} />
         <AddNewStock
           newStockName={newStockName}

@@ -18,6 +18,7 @@ export default function StockListTable({
   useEffect(() => {
     setFilteredStocks(stocks);
   }, [stocks]);
+
   // Sort stocks by name and Sector
 
   // Sort by Name
@@ -27,7 +28,8 @@ export default function StockListTable({
     );
     setFilteredStocks(sortedStocks);
   };
-  // Sort by Sector
+
+  //Sort by Sector
   const sortBySector = (reverse = false) => {
     const sortedStocks = [...filteredStocks].sort((a, b) =>
       reverse
@@ -52,7 +54,7 @@ export default function StockListTable({
     });
   };
 
-  // Search stock by name or symbol
+  //TODO: Search stock by name or symbol
 
   const handleSearch = (e) => {
     const searchTerm = e.target.value.toLowerCase();
@@ -75,8 +77,8 @@ export default function StockListTable({
         sortBySector={sortBySector}
         handleSectorFilter={handleSectorFilter}
       />
+
       {/* TODO: Add Search */}
-      {/* TODO: Add Table body */}
       <div className="my-3">
         <Input
           value={searchTerm}
@@ -85,6 +87,7 @@ export default function StockListTable({
         />
       </div>
 
+      {/* TODO: Add Table body */}
       <ul
         style={{ minHeight: "70vh" }}
         className="container container-md overflow-y-scroll"
